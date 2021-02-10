@@ -8,7 +8,7 @@ setup(
     author_email="zmoody@do.co",
     license="Apache2",
     include_package_data=True,
-    use_scm_version=True,
+    version='v5.3.21',
     setup_requires=["setuptools_scm"],
     packages=find_packages(exclude=["tests", "tests.*"]),
     install_requires=["requests>=2.20.0,<3.0", "six==1.*",],
